@@ -5,6 +5,7 @@ import java.util.Scanner;
 import java.util.Timer;
 import java.util.concurrent.TimeUnit;
 
+
 public class program {
 	private static Scanner choixCars;
 	private static Scanner choixCarsColor;
@@ -114,8 +115,12 @@ public class program {
 				distance += lewishamilton.getSpeed() / 10;
 
 				lewishamilton.setSpeed(50);
+				
 			}
 
+		}
+		if(distance == 50) {
+			System.out.println("La course est finis vous avez parcouru les 50km !");
 		}
 
 	}
